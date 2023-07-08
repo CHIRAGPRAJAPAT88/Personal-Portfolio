@@ -56,8 +56,9 @@ body {
     transition: .3s;
 }
 
-.header .sticky {
+.header.sticky {
     background: var(--bg-color);
+    box-shadow: 0 .1rem 1rem var(--main-color);
 }
 
 .logo {
@@ -136,7 +137,7 @@ section {
     -webkit-text-stroke: .7px var(--main-color);
     background-image: linear-gradient( var(--main-color), var(--main-color));
     background-repeat: no-repeat;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     background-position: -33rem 0;
 }
 
